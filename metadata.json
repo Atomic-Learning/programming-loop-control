@@ -1,0 +1,22 @@
+{
+    "title": "Programming: Loop Control",
+    "slug": "programming-loop-control",
+    "description": "Language-agnostic introduction to loop control statements for early exit and skipping iterations.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "programming",
+        "pseudocode"
+    ],
+    "duration": 8,
+    "prerequisites": [
+        "programming-for-loops-introduction",
+        "programming-if-else-blocks",
+        "programming-nested-constructs"
+    ],
+    "related": [
+        "python-loop-control",
+        "programming-loop-control-nested-loops"
+    ]
+}

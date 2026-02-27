@@ -1,0 +1,35 @@
+<h2>What Loop Control Means</h2>
+
+<p>Loop control statements change the normal flow of a loop. They let you stop early or skip part of an iteration when certain conditions are met. This can be important for structuring the logic of a piece of code, or to speed up execution by eliminating unnecessary iterations.</p>
+
+<h2>Exiting the Loop Early</h2>
+
+<p>In most languages, the word <code>break</code> immediately terminates the current loop.</p>
+
+<pre><code>FOR each item IN collection:
+    IF stop_condition:
+        BREAK
+    process(item)</code></pre>
+
+<p>This is useful for cases like:</p>
+
+<ul>
+    <li>When searching data for the first item that matches a condition, so no further processing is needed.</li>
+    <li>When a certain threshold in a calculation is reached, and continuing would be inefficient or irrelevant.</li>
+</ul>
+
+<h2>Skipping to the Next Iteration</h2>
+
+<p>In most languages, the word <code>continue</code> skips the rest of the current iteration and moves directly to the next one.</p>
+
+<pre><code>FOR each item IN collection:
+    IF skip_condition:
+        CONTINUE
+    process(item)</code></pre>
+
+<p>This is useful for cases like:</p>
+
+<ul>
+    <li>When you want to ignore certain items that don't meet criteria, but still want to process the rest.</li>
+    <li>When you want to skip over items that would cause errors or are irrelevant for the current processing step.</li>
+</ul>
