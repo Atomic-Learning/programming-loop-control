@@ -11,7 +11,7 @@
     ],
     "duration": 4,
     "prerequisites": [
-        "programming-for-loops-introduction",
+        "programming-for-loops",
         "programming-if-else-blocks",
         "programming-nested-constructs"
     ],
